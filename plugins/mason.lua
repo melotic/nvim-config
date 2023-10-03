@@ -1,5 +1,12 @@
 -- customize mason plugins
 return {
+  {
+    "williamboman/mason.nvim",
+    opts = function(_, opts)
+      -- customize the dashboard header
+      opts.PATH = "append"
+    end,
+  },
   -- use mason-lspconfig to configure LSP installations
   {
     "williamboman/mason-lspconfig.nvim",
