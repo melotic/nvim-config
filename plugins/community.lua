@@ -4,6 +4,7 @@ return {
   -- example of imporing a plugin, comment out to use it or add your own
   -- available plugins can be found at https://github.com/AstroNvim/astrocommunity
 
+  { import = "astrocommunity.pack.cpp" },
   { import = "astrocommunity.pack.cs" },
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.markdown" },
